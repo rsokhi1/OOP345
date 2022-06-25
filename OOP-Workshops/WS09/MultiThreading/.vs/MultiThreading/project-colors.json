@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "25f09778-52d4-4cff-a74c-289ca7ae9125": {
+      "ProjectGuid": "25f09778-52d4-4cff-a74c-289ca7ae9125",
+      "DisplayName": "MultiThreading",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

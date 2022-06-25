@@ -1,0 +1,13 @@
+/*Workshop #4 Part #2
+        Name        : Rajbeer Sokhi
+        StudentId   : 124969205
+        Email       : rsokhi1@myseneca.ca
+        Section     : NBB
+        Date        : 15th February 2022
+   I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+*/
+Q1.
+In this workshop the Toy Module and the Child module had a composition type of relationship and the Child module acted as the composer object whereas the Toy module acted as the components object. 
+The Child was responsible for the creation and destruction of the Toy. Whereas the relatiomship between the Toy and ConfirmOrder was of aggregation type as the Toy module can exist whether or not there are any confirmed orders. 
+Even though the modules have the same attribute of the toy class object they can still have different relationships it depends on what purpose we are using the object for.
+

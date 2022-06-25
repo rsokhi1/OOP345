@@ -1,0 +1,3 @@
+﻿  CovidCollection.cpp
+R:\Seneca\Semester 3\OOP345\OOP-Workshops\WS07\Workshop 7\CovidCollection.cpp(80): warning C4715: '<lambda_f4d2d1e2fab752742b7d35136b9e4563>::operator()': not all control paths return a value
+  Workshop 7.vcxproj -> R:\Seneca\Semester 3\OOP345\OOP-Workshops\WS07\Workshop 7\x64\Debug\Workshop 7.exe

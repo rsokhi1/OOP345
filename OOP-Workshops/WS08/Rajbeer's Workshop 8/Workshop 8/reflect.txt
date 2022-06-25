@@ -1,0 +1,14 @@
+/*Workshop #8 Part #2
+		  Name        : Rajbeer Sokhi
+		  StudentId   : 124969205
+		  Email       : rsokhi1@myseneca.ca
+		  Section     : NBB
+		  Date        : 03rd April 2022
+	I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+*/
+
+Smart pointers are self sufficient to manage memory in the heap they will allocate memory themselves and also they will automatically deallocate the memory whereas the raw pointers need their memory
+to be deleted by the program they are not capable of deleting it by themselves. Also the exception handling is safe with smart pointers because they will deallocate themself whereas in some cases a 
+raw pointer can cause a memory leak when an exception is thrown we can overcome this by deleting the memory before the function goes out of scope but still it can be a little bit confusing sometimes
+if you miss deleting the memory then it might cause trouble. The syntax for the smart pointers are a bit different. shared_ptr and unique_ptr are templated function and can act as a constructor of 
+a templated class.

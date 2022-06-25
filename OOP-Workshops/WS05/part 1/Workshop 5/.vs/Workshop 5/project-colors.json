@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b3491dca-1b5a-4ea4-9987-0d5a01abab40": {
+      "ProjectGuid": "b3491dca-1b5a-4ea4-9987-0d5a01abab40",
+      "DisplayName": "Workshop 5",
+      "ColorIndex": 0
+    },
+    "fa22d95c-27bb-4b39-bb25-5fd2b83822cc": {
+      "ProjectGuid": "fa22d95c-27bb-4b39-bb25-5fd2b83822cc",
+      "DisplayName": "Workshop 4 part 2 345",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
