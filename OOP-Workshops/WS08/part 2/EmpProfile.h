@@ -1,3 +1,11 @@
+/*Workshop #8 Part #2
+		  Name        : Rajbeer Sokhi
+		  StudentId   : 124969205
+		  Email       : rsokhi1@myseneca.ca
+		  Section     : NBB
+		  Date        : 03rd April 2022
+	I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+*/
 #ifndef SDDS_EMPPROFILE_H
 #define SDDS_EMPPROFILE_H
 
@@ -32,6 +40,7 @@ namespace sdds {
 			os << std::setw(10) << id << std::setw(10) << salary << std::endl;
 		}
 	};
+
 	
 	struct EmployeeWage {
 		std::string name{};
@@ -77,7 +86,11 @@ namespace sdds {
 		}
 
 		//TODO: add a function here to check correct salary range
-		
+		void rangeValidator() {
+			if (m_salary > 99999 || m_salary < 0) {
+				throw std::string("*** Employees salaray range is not valid");
+			}
+		}
 
 		void print(std::ostream& os)const {
 			os << std::setw(15) << name << std::setw(10) << m_salary<<std::endl;

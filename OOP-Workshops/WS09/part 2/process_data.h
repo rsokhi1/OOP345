@@ -2,6 +2,14 @@
 // process_data.h
 // 2021/1/5 - Jeevan Pant
 
+/*Workshop #9 Part #2
+		  Name        : Rajbeer Sokhi
+		  StudentId   : 124969205
+		  Email       : rsokhi1@myseneca.ca
+		  Section     : NBB
+		  Date        : 17th April 2022
+*/
+
 #ifndef SDDS_W9_PROCESSDATA_H
 #define SDDS_W9_PROCESSDATA_H
 
@@ -11,6 +19,7 @@
 #include<functional>
 #include<vector>
 #include<thread>
+#include<algorithm>
 
 namespace sdds_ws9 {
 	void computeAvgFactor(const int*, int, int, double&);
@@ -32,10 +41,10 @@ namespace sdds_ws9 {
 		operator bool() const;
 		int operator()(std::string, double&, double&);
 	};
-	
-	
+
+
 }
 
 
 
-#endif 
+#endif

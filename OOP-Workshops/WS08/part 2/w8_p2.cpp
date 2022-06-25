@@ -83,7 +83,7 @@ int main(int argc, char** argv)
 			<< "* Merging good prices using Smart Pointers" << endl
 			<< "********************************************" << endl;
 		{
- 			GeneratingList<EmployeeWage> empPro = writeSmart(emp, correctSal);
+			GeneratingList<EmployeeWage> empPro = writeSmart(emp, correctSal);
 			cout << setw(5) << "Employee Name" << setw(10) << "Salary" << endl;
 			cout << empPro << endl;
 		}
