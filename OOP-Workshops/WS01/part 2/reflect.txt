@@ -1,5 +1,0 @@
-1. Internal linkage is when the variable is accessible within the same module and not in any other module. Whereas external linkage is when the variable accessible across all the modules. In this workshop I used external linkage for tax rate and daily discount. Whereas the internal linkage is used for the variables that are in the class.
-
-2. Static variables are only allocated once in the memory and lasts throughout the lifetime of the code. The static variable belongs to the class and not the object. I used static variable in this workshop for the counter of the name.
-
-3. Instead of allocating memory to the name and food Description variable statically, I did dynamic memory allocation for the variable. In the read function I declared temp variable for the customer name and food Description and then dynamically allocate the values to the variables in the class. 
