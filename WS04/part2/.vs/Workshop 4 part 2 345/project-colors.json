@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fa22d95c-27bb-4b39-bb25-5fd2b83822cc": {
+      "ProjectGuid": "fa22d95c-27bb-4b39-bb25-5fd2b83822cc",
+      "DisplayName": "Workshop 4 part 2 345",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
